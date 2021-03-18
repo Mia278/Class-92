@@ -15,10 +15,10 @@ document.getElementById("player_answer").innerHTML = "answerturn-" + player2_nam
 
 function send() {
     get_word = document.getElementById("word").value;
-    word = get_word.tolowercase();
+    word = get_word.toLowerCase();
     console.log("wordinlowercase=" + word);
     charAt1 = word.charAt(1);
-    console.log(chareAt1);
+    console.log(charAt1);
     length_divide_2 = Math.floor(word.length/2);
     charAt2 = word.charAt(length_divide_2);
     console.log(charAt2);
